@@ -291,6 +291,8 @@ vim.keymap.set("n", "<C-s>", "<cmd> w! <cr>", { desc = "Safe file in the current
 
 vim.keymap.set("n", "<C-q>", "<cmd> q <cr>", { desc = "Force quit the buffer" })
 
+vim.keymap.set("n", "<C-n>", "<cmd> Neotree <cr>", { desc = "Open NeoTree" })
+
 vim.keymap.set("n", "<leader>sq", "<cmd> x <cr>", { desc = "Save and exit file" })
 
 vim.keymap.set("i", "jj", "<esc>")

@@ -291,10 +291,14 @@ vim.keymap.set("n", "<C-s>", "<cmd> w! <cr>", { desc = "Safe file in the current
 
 vim.keymap.set("n", "<C-q>", "<cmd> q <cr>", { desc = "Force quit the buffer" })
 
-vim.keymap.set("n", "<C-n>", "<cmd> Neotree <cr>", { desc = "Open NeoTree" })
-
 vim.keymap.set("n", "<leader>sq", "<cmd> x <cr>", { desc = "Save and exit file" })
 
+-- Custom Plugins Keymaps
+vim.keymap.set("n", "<C-n>", "<cmd> Neotree <cr>", { desc = "Open NeoTree" })
+
+vim.keymap.set("n", "<leader>gg", "<cmd> LazyGit <cr>", { desc = "Open NeoTree" })
+
+--Back to normal mode using j j
 vim.keymap.set("i", "jj", "<esc>")
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`

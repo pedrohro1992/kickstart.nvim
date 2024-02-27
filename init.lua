@@ -289,7 +289,6 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 --Misc keymap
 vim.keymap.set("n", "<C-s>", "<cmd> w! <cr>", { desc = "Safe file in the current buffer" })
 
-vim.keymap.set("n", "<C-q>", "<cmd> q <cr>", { desc = "Force quit the buffer" })
 
 vim.keymap.set("n", "<leader>sq", "<cmd> x <cr>", { desc = "Save and exit file" })
 
@@ -300,6 +299,20 @@ vim.keymap.set("n", "<leader>gg", "<cmd> LazyGit <cr>", { desc = "Open NeoTree" 
 
 --Back to normal mode using j j
 vim.keymap.set("i", "jj", "<esc>")
+
+
+--Nao sei o que isso aqui faz
+vim.keymap.set("n", "x", '"_x')
+
+--Select All
+vim.keymap.set("n", "<C-a>", "gg<S-v>G")
+
+vim.keymap.set("n", "<tab>", "<cmd> BufferNext <cr>", { desc = "Move to Next Tab" })
+
+vim.keymap.set("n", "<space><tab>", "<cmd> BufferPrevious <cr>", { desc = "Move to Previous Tab" })
+
+vim.keymap.set("n", "<C-q>", "<cmd> BufferClose <cr>", { desc = "Close current buffer" })
+
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })

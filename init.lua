@@ -121,7 +121,7 @@ local servers = {
   --terraform language servers
   terraformls = {},
   tflint = {},
-  tfsec = {},
+
   --ansible langua servers
   ansiblels = {},
   lua_ls = {

@@ -7,6 +7,12 @@ vim.o.relativenumber = true
 -- Set highlight on search
 vim.o.hlsearch = false
 
+-- Enable highlighting of the current lines
+vim.o.cursorline = true
+
+-- Use spaces instead of tabs
+vim.opt.expandtab = true
+
 -- Make line numbers default
 vim.wo.number = true
 

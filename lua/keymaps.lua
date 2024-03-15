@@ -31,6 +31,7 @@ vim.keymap.set("i", "jj", "<esc>")
 
 -- Move cut to the _ register
 vim.keymap.set("n", "x", '"_x')
+vim.keymap.set("v", "x", '"_x')
 
 --Select All
 vim.keymap.set("n", "<C-a>", "gg<S-v>G")

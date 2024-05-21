@@ -44,6 +44,11 @@ vim.o.timeoutlen = 300
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
 
+--Set tab to to spaces
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2
+vim.o.expandtab = true
+
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 

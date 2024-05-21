@@ -38,7 +38,7 @@ vim.keymap.set("n", "<leader>h", "<cmd> TmuxNavigateLeft <cr>", { desc = "Jump t
 
 
 --Back to normal mode using j j
-vim.keymap.set("i", "jj", "<esc>")
+vim.keymap.set("i", "jk", "<esc>")
 
 
 -- Move cut to the _ register

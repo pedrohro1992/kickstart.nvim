@@ -1,0 +1,1 @@
+- Adicionar keymaps para o telescope find_word no buffer e na code base inteira

@@ -8,8 +8,15 @@ return {
 				icons_enabled = true,
 				theme = 'auto',
 				component_separators = '|',
+				globalstatus = true,
 				section_separators = '',
+				disabled_filetypes = { statusline = { "dashboard", "alpha", "starter" } },
 			},
+			sections = {
+				lualine_a = { "mode" },
+				lualine_b = { "branch" },
+				lualine_c = {},
+			}
 		},
 	},
 }

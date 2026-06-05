@@ -64,4 +64,13 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   callback = function() vim.hl.on_yank() end,
 })
 
+-- Custom Keymaps 
+vim.keymap.set('n', '<leader>w', '<cmd>:w!<CR>', { desc = 'Save current file' })
+vim.keymap.set('n', '<leader>qa', '<cmd>:qa!<CR>', { desc = 'Exit Vim' })
+vim.keymap.set('n', '<leader>qq', '<cmd>:q<CR>', { desc = 'Exit Vim/Close current pane' })
+vim.keymap.set('n', '<leader>vs', '<cmd>:vsplit<CR>', { desc = 'Vertical Split' })
+vim.keymap.set("n", '<leader>e', "<CMD>Neotree float<CR>", { desc = "Open parent directory" })
+-- [[ Insert Mode ]]
+vim.keymap.set('i', 'jk', '<esc>', { desc = 'Back to Normal Mode from Insert Mode with jk' })
+
 -- vim: ts=2 sts=2 sw=2 et

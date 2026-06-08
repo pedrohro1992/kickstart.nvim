@@ -17,6 +17,7 @@ return {
         null_ls.builtins.code_actions.impl,
         -- diagnostics
         null_ls.builtins.diagnostics.kube_linter,
+        null_ls.builtins.diagnostics.ansiblelint,
       },
     }
   end,

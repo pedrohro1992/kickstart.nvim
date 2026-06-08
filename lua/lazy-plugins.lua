@@ -36,6 +36,7 @@ require('lazy').setup({
   require 'custom.plugins.mini-icons',
   require 'custom.plugins.noice',
   require 'custom.plugins.none-ls',
+  require 'custom.plugins.ansible',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

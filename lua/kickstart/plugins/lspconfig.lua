@@ -134,6 +134,7 @@ return {
           },
         },
         terraformls = {},
+        ansiblels = {},
         stylua = {}, -- Used to format Lua code
         lua_ls = {
           on_init = function(client)
@@ -192,6 +193,8 @@ return {
         'terraformls',
         'tflint',
         'tfsec',
+        'ansible-lint',
+        'ansible-language-server',
       })
 
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }

@@ -189,6 +189,7 @@ return {
         'iferr',
         'impl',
         'goimports',
+        'gofumpt',
         -- Terraform
         'terraformls',
         'tflint',

@@ -29,7 +29,7 @@ return {
         function()
           Snacks.bufdelete()
         end,
-        desc = 'File Explorer',
+        desc = 'Delete Buffer',
       },
     },
   },

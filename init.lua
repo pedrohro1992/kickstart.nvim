@@ -18,7 +18,7 @@ require 'lazy-plugins'
 
 vim.o.background = 'dark'
 require('catppuccin').setup {
-  transparent_background = false,
+  transparent_background = true,
 }
 vim.cmd.colorscheme 'catppuccin'
 --
